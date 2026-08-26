@@ -215,7 +215,7 @@ export default function InstanceSelector () {
         </div>
       )}
 
-      s      {showCoreModal && (
+      {showCoreModal && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
           <div ref={coreModalRef} className="bg-[#0b1329] border border-surface rounded-lg w-full max-w-sm p-5 relative shadow-2xl">
             <button onClick={() => setShowCoreModal(false)} className="absolute top-4 right-4 text-gray-400 hover:text-white">
